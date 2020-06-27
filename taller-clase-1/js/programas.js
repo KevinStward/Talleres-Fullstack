@@ -22,6 +22,7 @@ function resolverPrimero(){
         <p>Pares: ${resultadoPares}</p>
         `
     }
+    //esto es una prueba por si las moscas
 }
 
 function primerosImpares(numero){
