@@ -1,6 +1,5 @@
-function isPalidromo(entrada){
+function isPalidromo(){
     var entrada = document.getElementById("entrada-punto3").value;
-    console.log(entrada)
     //Toda entrada sera convertida a string
     entrada = entrada.toString()
     //Pasamos a minusculas
