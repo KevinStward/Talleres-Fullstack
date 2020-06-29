@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="js/programas.js"></script>
+    <script src="js/Pejercicio4.js"></script>
     <script src="js/Ejercicio2.js"></script>
     <script src="js/Ejercicio6.js"></script>
     <script src="js/Ejercicio7.js"></script>
+    <script src="js/Ejercicio8.js"></script>
     <title>Taller clase 1</title>
 </head>
 <body>
@@ -23,6 +25,12 @@
         <button type="button" class="btn-send" onclick="resolverPrimero()">Enviar</button>
     </form>
     <div id="resultado-1" class="result"></div>
+    <form action="js/Pejercicio4.js" id="form-point-1" method="post">
+        <label for="eje4">ejercicio 4</label>
+        <input type="number" name ="eje4" id="eje4" required>
+        <button type="button" onclick="ejercicio4()">Enviar</button>
+        
+    </form>
     <h2>
         Punto 5.
     </h2>
@@ -44,11 +52,19 @@
         <button type="button" onclick="imprimirReverse()">Enviar</button>
         
     </form>
+    <form action="js/Ejercicio8.js" id="form-point-1" method="post">
+        <label for="eje8">ejercicio 8</label>
+        <input type="text" name ="eje8" id="eje8" required>
+        <button type="button" onclick="ejercicio8()">Enviar</button>
+        
+    </form>
     <div id="resultado-1"></div>
+    <div id="resultado-4"></div>
     <div id="resultado-5">
         
     </div>
     <div id="resultado-6"></div>
     <div id="resultado-7"></div>
+    <div id="resultado-8"></div>
 </body>
 </html>
