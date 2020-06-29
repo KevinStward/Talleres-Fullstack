@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="js/programas.js"></script>
-    <script src="js/Pejercicio4.js"></script>
-    <script src="js/EjercicioPunto2.js"></script>
+    <script src="js/Ejercicio1.js"></script>
     <script src="js/Ejercicio2.js"></script>
+    <script src="js/Ejercicio4.js"></script>
+    <script src="js/Ejercicio5.js"></script>
     <script src="js/Ejercicio6.js"></script>
     <script src="js/Ejercicio7.js"></script>
     <script src="js/Ejercicio8.js"></script>
@@ -17,6 +17,7 @@
     <header>
         <h1>Taller clase 1</h1>
     </header>
+
     <h2>
         Punto 1.
     </h2>
@@ -26,12 +27,7 @@
         <button type="button" class="btn-send" onclick="resolverPrimero()">Enviar</button>
     </form>
     <div id="resultado-1" class="result"></div>
-    <form action="js/Pejercicio4.js" id="form-point-1" method="post">
-        <label for="eje4">ejercicio 4</label>
-        <input type="number" name ="eje4" id="eje4" required>
-        <button type="button" onclick="ejercicio4()">Enviar</button>
-        
-    </form>
+
     <h2>
         Punto 2.
     </h2>
@@ -40,43 +36,57 @@
         <input type="number" name="numero-punto2" id="numero-punto2" required placeholder="Número entero">
         <button type="button" class="btn-send" onclick="getPrimos()">Enviar</button>
     </form>
-    <div id="resultado-2" class="result">
+    <div id="resultado-2" class="result"></div>
 
-    </div>
+    <h2>
+        Punto 4.
+    </h2>
+    <form action="js/Pejercicio4.js" id="form-point-1" method="post">
+        <label for="eje4">ejercicio 4</label>
+        <input type="number" name ="eje4" id="eje4" required>
+        <button type="button" class="btn-send" onclick="ejercicio4()">Enviar</button>
+    </form>
+    <div id="resultado-4" class="result"></div>
+
     <h2>
         Punto 5.
     </h2>
     <form action="js/Ejercicio2.js" id="form-point-1" method="post">
         <label for="hexaIN">Número hexa</label><br>
         <input type="text" name ="hexaIN" id="hexaIN" required placeholder="Número en hexa">
-        <button type="button" class="btn-send" onclick="hexadecimal()">Enviar</button>
-        
+        <button type="button" class="btn-send" class="btn-send" onclick="hexadecimal()">Enviar</button>
     </form>
+    <div id="resultado-5" class="result"></div>
+
+    <h2>
+        Punto 6.
+    </h2>
     <form action="js/Ejercicio6.js" id="form-point-1" method="post">
         <label for="eje6">Número</label>
         <input type="number" name ="eje6" id="eje6" required>
-        <button type="button" onclick="ejercicio6()">Enviar</button>
-        
+        <button type="button" class="btn-send" onclick="ejercicio6()">Enviar</button>
     </form>
+    <div id="resultado-6" class="result"></div>
+
+    <h2>
+        Punto 7.
+    </h2>
     <form action="js/Ejercicio7.js" id="form-point-1" method="post">
         <label for="rev">Texto a invertir</label>
         <input type="text" name ="rev" id="rev" required>
-        <button type="button" onclick="imprimirReverse()">Enviar</button>
-        
+        <button type="button" class="btn-send" onclick="imprimirReverse()">Enviar</button>    
     </form>
+    <div id="resultado-7" class="result"></div>
+    
+    <h2>
+        Punto 8.
+    </h2>
     <form action="js/Ejercicio8.js" id="form-point-1" method="post">
         <label for="eje8">ejercicio 8</label>
         <input type="text" name ="eje8" id="eje8" required>
-        <button type="button" onclick="ejercicio8()">Enviar</button>
+        <button type="button" class="btn-send" onclick="ejercicio8()">Enviar</button>
         
     </form>
-    <div id="resultado-1"></div>
-    <div id="resultado-4"></div>
-    <div id="resultado-5">
-        
-    </div>
-    <div id="resultado-6"></div>
-    <div id="resultado-7"></div>
-    <div id="resultado-8"></div>
+    <div id="resultado-8" class="result"></div>
 </body>
 </html>
