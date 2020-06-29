@@ -14,12 +14,13 @@ function resolverPrimero(){
         //Procesar los pares
         var resultadoPares = primerosPares(numero);
         //Obtener el div donde se mostraran los resultados.
-        var printResult = document.getElementById("resultado-1")
+        var printResult = document.getElementById("resultado-1");
         //Insertar el HTML con los resultados.
         printResult.innerHTML=`
         <h3>Los resultados son:</h3>
-        <p>Inpares: ${resultadoImpares}</p>
+        <p>Impares: ${resultadoImpares}</p>
         <p>Pares: ${resultadoPares}</p>
+
         `
     }
     //esto es una prueba por si las moscas
