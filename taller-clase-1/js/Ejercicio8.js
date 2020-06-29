@@ -33,5 +33,3 @@ function ejercicio8(){
         }*/
     }
 }
-
-//console.log(ejercicio8("mireira 5 ximon vicente maria vicente mireira"))
