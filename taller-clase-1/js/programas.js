@@ -20,10 +20,8 @@ function resolverPrimero(){
         <h3>Los resultados son:</h3>
         <p>Impares: ${resultadoImpares}</p>
         <p>Pares: ${resultadoPares}</p>
-
         `
     }
-    //esto es una prueba por si las moscas
 }
 
 function primerosImpares(numero){
