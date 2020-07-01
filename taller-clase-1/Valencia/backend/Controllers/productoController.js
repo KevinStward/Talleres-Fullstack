@@ -1,6 +1,6 @@
 'use strict'
 var validation=require('validator');
-var Producto=require('../Models/productos');
+var Producto=require('../Models/Producto');
 const { default: validator } = require('validator');
 var controller={
     save:(req,res)=>{
@@ -30,7 +30,7 @@ var controller={
             })
         })
     },
-    get_Productos:(req,res)=>{
+    getAll:(req,res)=>{
         Producto.find({},'nombre cantidad').exec((err,productos)=>{
             if(err){
                 return res.status(404).send({

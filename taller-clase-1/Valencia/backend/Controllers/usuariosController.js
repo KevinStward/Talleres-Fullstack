@@ -1,6 +1,6 @@
 'use strict'
 var validation=require('validator');
-var Usuario=require('../Models/Usuarios');
+var Usuario=require('../Models/Usuario')
 const { default: validator } = require('validator');
 var controller={
     datosUsuario:(req,res)=>{
@@ -39,7 +39,7 @@ var controller={
             })
         })
     },
-    get_Usuarios:(req,res)=>{
+    getAll:(req,res)=>{
         Usuario.find({},'nombres apellidos').exec((err,usuarios)=>{
             if(err){
                 return res.status(404).send({
